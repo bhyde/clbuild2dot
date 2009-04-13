@@ -1,5 +1,10 @@
 The file do-dot.lisp contains a single routine cl-user:generate-drawing of no
-arguments.  Invoke it with your current directory set to the clbuild directory; and it will spit out a graphviz/dot drawing of your installed modules and thier dependencies as recorded in the dependencies file.  
+arguments.  Invoke it when your current directory set to the clbuild directory; and it will spit out a graphviz/dot[1] drawing of your installed modules and thier dependencies as recorded in the dependencies file.
 
-See for example <http://enthusiasm.cozy.org/archives/2009/04/the-briar-patch>
+The file presumes the cl-ppcre[3] is present.
 
+Example output from an slightly earlier version can be seen here[2].
+  
+[1] http://www.graphviz.org/
+[2] http://enthusiasm.cozy.org/archives/2009/04/the-briar-patch
+[3] http://www.weitz.de/cl-ppcre/
